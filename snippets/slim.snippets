@@ -1,0 +1,7 @@
+snippet sff
+	= simple_form_for @${1} do |f|
+		${2}
+snippet ffi
+	= ${1:f}.input :${2:attribute}
+snippet ffs
+	= ${1:f}.button :submit${2}
